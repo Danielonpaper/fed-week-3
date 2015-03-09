@@ -1,0 +1,86 @@
+  html {
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin:0px;
+  padding:0px;
+  position:absolute;
+  top:0px
+ 
+}
+
+.main-content{
+	margin: 100px 0px 0px 20px;
+}
+
+
+#header {
+	
+	height:80px;
+	width: 100%;
+	background-color: #59D7F0;
+	position: fixed;
+	margin:0px;
+ 	padding:0px;
+
+
+}
+
+   h1 {
+	position: relative;
+	margin: 20px 0px 0px 20px;
+	float: left;
+	color: #fff;
+
+}
+
+#nav li {
+	float:right;
+	display: inline-block;
+	padding-right:20px;
+	margin-top: 18px;
+}
+
+#footer {
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	background-color: #EBEFF0;
+}
+
+.pullquote{
+	width: 300px;
+	border: 1px solid black;
+	float: right;
+	padding: 10px;
+}
+
+.grid-box{
+	height:315px;
+	width: 315px;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: #EBEFF0;
+	border: 1px dashed black;
+	float: left;
+	text-align: center;
+	margin: 2px;
+	
+}
+
+.nav2 li {
+	float:right;
+	display: inline-block;
+	padding-right:20px;
+	margin-top: 0px;
